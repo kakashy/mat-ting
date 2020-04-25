@@ -1,0 +1,55 @@
+.Formu {
+    display: flex;
+    flex-direction: row;
+}
+.academia {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    transition: 400ms ease;
+}
+.personalInfo {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    color: white;
+}
+
+.textInput {
+    border: 2px;
+    float: right;
+    padding: 8px;
+}
+
+.formButton {
+    border: none;
+    padding: 9px;
+    color: white;
+    background-color: rgb(43, 68, 60);
+    font-size: 14px;
+}
+.formButton:hover {
+    background-color: rgb(111, 177, 156);
+    color: black;
+    transition: 400ms ease;
+}
+
+@media only screen and (max-width: 700px) {
+    .Formu {
+        display: flex;
+        flex-direction: column;
+        transition: 300ms ease;
+    }
+    .personalInfo {
+        height: auto;
+    }
+    .academia {
+        margin-left: 0;
+    }
+}
+ 
+
