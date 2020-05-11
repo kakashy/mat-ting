@@ -5,6 +5,6 @@
 3. React - dom
 4. React scripts
 
-## Tasks Left
-1. Configure storage logic
-6. Add *Electron*
+## Known Issues
+1. Fine tuning storage logic
+2. Webpack configs to allow electron to run harmoniously
