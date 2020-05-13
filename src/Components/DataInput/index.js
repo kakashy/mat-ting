@@ -121,6 +121,38 @@ componentDidUpdate(nextProps, nextState) {
 
         </input>
         <br />
+
+        <label className="label">
+            English
+        </label>
+        <br />
+        <input
+            name="English"
+            type="number"
+            maxLength="3"
+            placeholder="English"
+            className="textInput"
+            onChange={this.handleChange}
+        >
+
+        </input>
+        <br />
+
+        <label className="label">
+            Kiswahili
+        </label>
+        <br />
+        <input
+            name="Kiswahili"
+            type="number"
+            maxLength="3"
+            placeholder="Kiswahili"
+            className="textInput"
+            onChange={this.handleChange}
+        >
+
+        </input>
+        <br />
     </div>
 
     </div>
