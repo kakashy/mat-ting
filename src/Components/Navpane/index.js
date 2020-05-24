@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { NavPane, NavPaneItem, Text } from 'react-desktop/windows';
 import ViewBox from '../View'
 import DataInput from '../DataInput'
+import DataViz from '../DataViz'
 
 export default class extends Component {
   static defaultProps = {
@@ -22,7 +23,7 @@ export default class extends Component {
       <NavPane openLength={200} push color={this.props.color} theme={this.props.theme}>
         {this.renderItem('Home', <ViewBox />)}
         {this.renderItem('Entry', <DataInput />)}
-        {this.renderItem('Data Viz', 'Content 3')}
+        {this.renderItem('Data Viz', <DataViz />)}
       </NavPane>
     );
   }
