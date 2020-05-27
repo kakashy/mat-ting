@@ -3,7 +3,7 @@ import { View, Text } from 'react-desktop/windows';
 
 export default class extends Component {
   static defaultProps = {
-    color: '#053D42',
+    color: 'linear-gradient(110deg, orange, purple)',
     theme: 'dark'
   };
 

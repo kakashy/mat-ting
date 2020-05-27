@@ -50,6 +50,12 @@
     .academia {
         margin-left: 0;
     }
+    .formButton {
+        bottom: 0;
+        right: 0;
+        position: fixed;
+        width: 150px;
+    }
 }
  
 
